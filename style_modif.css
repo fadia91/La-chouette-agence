@@ -739,9 +739,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.portfolio-thumb {
-    margin-bottom: 24px;
-}
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -1038,5 +1035,9 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    #bloc-4-portfolio img {
+        margin: auto;
     }
 }
