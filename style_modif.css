@@ -649,6 +649,15 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+blockquote {
+    font-size: 18px;
+    color: #575757;
+    font-style: italic;
+    margin: 0 0 20px;
+    border-left: none;
+    padding: 10px;
+    margin: 0px;
+}
 
 .container {
     max-width: 1000px;
