@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #f6cc39;
+    color: #f8d867;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: #EAF639
+    color: #ffd53c71;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -232,6 +232,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
     color: rgba(0, 0, 0, .6);
+    font-weight: bold;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -299,6 +300,7 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    font-family: 'Yeon Sung', cursive;
 }
 
 .navbar-brand img {
@@ -633,6 +635,7 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+    font-size: 15px;
 }
 
 h1,
@@ -777,17 +780,17 @@ h4 {
 }
 
 .tc-white {
-    color: #f6cc39!important;
+    color: #f8d867!important;
 }
 
 .btn-atomic-tangerine {
     background: #b12f30;
-    color: #f6cc39!important;
+    color: #f8d867!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #EAF639!important;
-    color: #FFFFFF!important;
+    background: #f8d867!important;
+    color: #b12f30!important;
 }
 
 .ltc-white {
@@ -799,11 +802,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f6cc39!important;
+    color: #f8d763!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #f6cc39!important;
+    color: #f8d763!important;
 }
 
 .icon-dark-slate-blue {
