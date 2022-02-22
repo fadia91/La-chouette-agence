@@ -1,23 +1,30 @@
 <!doctype html>
-<html lang="Default">
+<!--ajout langue fr-->
+<html lang="fr">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style_modif.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<meta charset="utf-8">
+	<!--supression meta keyword inutile pour le SEO-->
+	<!-- ajout de la description -->
+	<meta name="description" content="Entreprise web design basée à Lyon, la chouette agence est reconnue pour son expertise dans le domaine. Nous aidons les entreprises à avoir un contenu web de qualité.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<!-- ajout de la meta robots pour que google indexe notre contenu-->
+	<meta name="robots" content="index, follow" />
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<!--modification type favicon-->
+	<link rel="shortcut icon"  href="img/favicon.jpg" type="image/png" />
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style_modif.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js"></script>
+
+	<!-- ajout d'un titre-->
     <title>Contactez-nous</title>
 
     
@@ -38,9 +45,12 @@
 			<div class="navbar-header">
 				
 				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></a>
-				
+				<!--indentation des span-->
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -113,7 +123,9 @@
 			</div>
 			<div class="col-sm-6">
 				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+					<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
+					<a href="https://www.google.com/maps/place/2+Place+Sathonay,+69001+Lyon/@45.7695241,4.8279786,17z/data=!3m1!4b1!4m5!3m4!1s0x47f4eb020f3664e9:0x13e3d71752922c1f!8m2!3d45.7695241!4d4.8301673">2 place Sathonay 69001 Lyon</a>
+					<a>Ouvert de 9h à 18h, du lundi au vendred</a>
 				</p>
 			</div>
 		</div>
@@ -137,26 +149,30 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://twitter.com/?lang=fr"><span
-											class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com/?lang=fr">
+										<span class="fa fa-twitter icon-md"></span>
+									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.facebook.com/"><span
-											class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://www.facebook.com/">
+										<span class="fa fa-facebook icon-md"></span>
+									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.dribbble.com/"><span
-											class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://www.dribbble.com/">
+										<span class="fa fa-dribbble icon-md"></span>
+									</a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="https://www.instagram.com/"><span
-											class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="https://www.instagram.com/">
+										<span class="fa fa-instagram icon-md"></span>
+									</a>
 								</div>
 							</div>
 							<!--supression div kw-->
